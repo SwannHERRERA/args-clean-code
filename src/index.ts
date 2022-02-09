@@ -84,6 +84,7 @@ class Args {
   }
 
   private addString(flag: string, command: string, start: number) {
+    const regexForString = /-([a-zA-Z]) *'(.*)'/gm;
     throw new Error("Not implemented");
   }
 
