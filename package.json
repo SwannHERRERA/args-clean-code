@@ -1,0 +1,15 @@
+{
+  "name": "args-clean-code",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/SwannHERRERA/args-clean-code.git",
+  "author": "Swann HERRERA <swann@devloup.dev>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsc -p . && nodemon src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "typescript": "^4.5.5"
+  }
+}
